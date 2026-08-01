@@ -1,7 +1,25 @@
 aid: peerspace
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/peerspace.png
 name: Peerspace
-description: 'Peerspace is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Peerspace is an online marketplace for booking unique venues and spaces
+  by the hour — event spaces, meeting rooms, photo and film studios, production locations,
+  and unconventional rooms and residences — connecting space owners (hosts) with people
+  who need distinctive locations for events, meetings, photo shoots, and productions.
+  Surfaced as a portfolio company of gv and added to the API Evangelist network. Peerspace
+  operates a consumer marketplace with web and mobile apps but does not publish a public
+  developer API; this profile captures its public identity, security posture, and legal
+  and support surface.'
 url: https://raw.githubusercontent.com/api-evangelist/peerspace/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Marketplace
+- Venues
+- Event Spaces
+- Bookings
+- Travel
+- Real Estate
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +47,33 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://peerspace.com
+  url: https://www.peerspace.com
+- type: Support
+  url: https://support.peerspace.com/hc/en-us
+- type: HelpCenter
+  url: https://support.peerspace.com/hc/en-us
+- type: Blog
+  url: https://www.peerspace.com/resources
+- type: GitHubOrganization
+  url: https://github.com/peerspace
+- type: TermsOfService
+  url: https://www.peerspace.com/legal/terms
+- type: PrivacyPolicy
+  url: https://www.peerspace.com/legal/privacy
+- type: SignUp
+  url: https://www.peerspace.com/host
+- type: VulnerabilityDisclosure
+  url: security/peerspace-vulnerability-disclosure.yml
+- type: Security
+  url: https://peerspace.com/.well-known/security.txt
+- type: DomainSecurity
+  url: security/peerspace-domain-security.yml
+- type: WellKnown
+  url: well-known/peerspace-well-known.yml
+- type: SecurityTxt
+  url: well-known/peerspace-security.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 1
+  pass: local-v1

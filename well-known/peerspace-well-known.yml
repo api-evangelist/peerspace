@@ -1,0 +1,12 @@
+generated: '2026-07-20'
+method: searched
+source: live probes of https://peerspace.com/.well-known/*
+host: https://peerspace.com
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  file: peerspace-security.txt
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
