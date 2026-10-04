@@ -49,7 +49,7 @@ tags:
 - Event Spaces
 - Booking
 - Travel
-- Real-Estate
+- Real Estate
 tags_raw:
 - Company
 - Consumer
@@ -59,6 +59,7 @@ tags_raw:
 - Bookings
 - Travel
 - Real Estate
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
